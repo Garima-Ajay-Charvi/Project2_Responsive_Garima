@@ -1,0 +1,113 @@
+.logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear:both;
+}
+
+.column {
+	float: left;
+	width: 33.333333%;
+	padding: 5px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 320px) and (max-width: 480px) {
+	.logo {
+		height: 30%;
+	  }
+	  li {
+		float: left;
+	}
+	button:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.intro {
+	 height: 93%; 
+	 /* background-position: center;
+	  background-repeat: no-repeat;*/
+	  background-size: 100%;
+	  text-align: center;
+	  padding-top: 60%;
+	  margin-bottom: -200px;
+	  
+	  }
+	  .row2 {
+		background-image: url("images.jpeg");
+		  /* Full height */
+	  height: 93%; 
+	
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  text-align: center;
+	  padding: 20%;
+	  }
+	  .intro h1 {
+		font-size: 30px;
+		max-width: 480px;
+		border:2px red solid;
+		width: 120%;	
+		}
+		#productSection h1{font-size: 20px;}
+	 .intro p {
+		 font-size: 20px;
+		 margin-top: 5px;
+	 }
+	 .column {
+		float: none;
+		width: 40%;
+		
+	}
+	.column img {
+		width: 90%;
+		position: relative;
+		margin-left: 25px;
+		width: 300px;
+	}
+	a:link {
+		padding-left: 60px;
+	}
+	.pics {
+		float: left;
+		width: 90%;
+		padding: 40px;
+		height: 250px;
+		text-align: center;
+	}
+	.column-contact {
+		float: left;
+		width:100%;
+	}
+	.form {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border-radius: 15px;
+		border:3px solid #ccc;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: forestgreen;
+		text-align: left;
+		position: relative;
+	}
+}

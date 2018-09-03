@@ -1,0 +1,17 @@
+#Goods {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.goods {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 500px;
+    color: darkslateblue;
+    /*margin-top: 500px;*/
+}
+.column img {
+    width: 270px;
+    height: 250px;
+    padding-right: 50px;
+    margin-right: 50px;
+}

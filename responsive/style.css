@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+.row{width: 850px;border: blue;border-style: none; margin: auto;}
+.intro {
+    background-image: url("https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-1-4939-3575-8_18/MediaObjects/312983_1_En_18_Fig1_HTML.gif");
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 30%;
+  
+  }
+   .spanclass1 {
+    color: antiquewhite;
+  }
+  .spanclass2 {
+      color: darkred;
+  }
+  
+  .intro h1 {
+     font-size: 60px;
+    }
+  .intro p {
+      font-size: 30px;
+      margin-top: 5px;
+  }
+a:link {
+    color: indigo;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.row2 {
+    background-image: url("images.jpeg");
+      /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 20%;
+  }
+.row2 {
+    margin:50px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+#socialfollow {
+    display:inline-block;
+    text-align: center;
+    background-color: #555;
+    padding: 5px 10px 5px 5px;
+    width: 100%;
+}
+#fol {
+    padding-bottom: 150px;
+    color: blue;
+}
